@@ -17,4 +17,4 @@ This tutorial requires the following:
 
 ## Create and Compile a MaXEVA Configuration
 
-First, create a new application project as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US)
+First, create a new application project (e.g., named <my_project>) as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US).
