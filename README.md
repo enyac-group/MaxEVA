@@ -7,7 +7,7 @@ Available preprint: **XXXXXXXXXXXXXXXXXXXXXX**
 
 ## Requirements
 
-It is recommended to review the AMD/Xilinx AI Engine blog series (https://support.xilinx.com/s/question/0D52E00006xR6iXSAS/ai-engine-blog-series?language=en_US) before running this tutorial.
+It is recommended to review the [AMD/Xilinx AI Engine blog series] (https://support.xilinx.com/s/question/0D52E00006xR6iXSAS/ai-engine-blog-series?language=en_US) before running this tutorial.
 
 This tutorial requires the following:
 1. The Vitis 2022.1 unified software platform installed on a supported Linux OS
