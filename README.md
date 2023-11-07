@@ -17,4 +17,6 @@ This tutorial requires the following:
 
 ## Create and Compile a MaXEVA Configuration
 
-First, create a new application project (e.g., named <my_project>) as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US).
+1. Create a new application project (e.g., named `<project_name_dir>`) as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US).
+
+2. Replace the contents of `<project_name_dir>/data` and `<project_name_dir>/src` directories with 
