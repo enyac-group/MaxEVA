@@ -2,7 +2,7 @@
 
 This is the official github repo of MaxEVA paper published at FPT2023 Conference.
 
-Available preprint: http://recruiters-love-seeing-live-demos.com/
+Available preprint: **XXXXXXXXXXXXXXXXXXXXXX**
 
 
 ## Requirements
