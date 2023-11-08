@@ -71,6 +71,7 @@ To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasti
 <img src="images/placement_patterns.PNG" width=55% height=55%>
 
 
+
 ## Requirements
 
 This tutorial requires the following:
