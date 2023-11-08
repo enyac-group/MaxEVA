@@ -33,5 +33,9 @@ This tutorial requires the following:
 
 4.  Right click on `<project_name_dir> [ aiengine ]` and select `Build Project`. This step will build the project for HW Emulation. Make sure the Active build Configuration is set to `Emulation-AIE` as shown [here](https://support.xilinx.com/s/article/1199671?language=en_US).
 
-5. Generate input and golden data utilizing the `generate_golden_{int8,fp32}` C++ script:
-6. 
+5. Generate input and golden data utilizing the `generate_golden_{int8, fp32}` C++ script (example below shows `int8` case):
+
+   ```bash
+   cd <project_name_dir>/data
+   g++ -o generate_golden_int8 generate_golden_int8.cpp
+   ```
