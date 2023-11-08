@@ -67,7 +67,7 @@ To overcome the major bottleneck of limited PLIO bandwidth, MaxEVA utilizes **in
 <img src="images/MatMul_mapping_AIE.PNG" width=65% height=65%>
 </p>
 
-3. Optimization of `M`, `K`, `N` and `X`, `Y`, `Z` shown at Section IV-C.
+3. Optimization of `M`, `K`, `N` and `X`, `Y`, `Z` parameters as shown at Section IV-C.
 
 4. Fig.7 depicts the two proposed placement patterns to leverage the **most efficient local data sharing** mechanism of the AIE array and **eliminate/minimize DMA** usage (Section IV-D).
 
