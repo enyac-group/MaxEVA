@@ -7,8 +7,6 @@ Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
 ## Requirements
 
-It is recommended to review the [AMD/Xilinx AI Engine blog series](https://support.xilinx.com/s/question/0D52E00006xR6iXSAS/ai-engine-blog-series?language=en_US) before running this tutorial.
-
 This tutorial requires the following:
 1. The Vitis 2022.1 software platform installed on a supported Linux OS.
 2. A valid license for the AI Engine tools (licenses can be generated from AMD user account).
@@ -16,6 +14,8 @@ This tutorial requires the following:
 
 
 ## Compile & Run a MaxEVA Configuration
+
+It is recommended to review the [AMD/Xilinx AI Engine blog series](https://support.xilinx.com/s/question/0D52E00006xR6iXSAS/ai-engine-blog-series?language=en_US) before running this tutorial.
 
 1. Create a new application project (e.g., named `<project_name_dir>`) as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US).
 
