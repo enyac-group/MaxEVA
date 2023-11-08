@@ -48,7 +48,7 @@ efficiency of Matrix Multiplication (MatMul) applications on Versal AIEs. The ma
 to maximize the performance of MatMul on Versal
 AIE. Our methodology is generalizable to any Versal AIE
 device and addresses various performance bottlenecks,
-leading to maximal utilization of the AIE resources.
+leading to maximal utilization of the AIE resources (up to **100%** AIE cores, **99.8%** AIE memory and **82.1%** PLIOs).
 + A sophisticated AIE kernel placement strategy to effectively
 leverage the most efficient data movement mechanisms
 of the Versal AIE architecture.
