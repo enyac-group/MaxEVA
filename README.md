@@ -15,7 +15,7 @@ This tutorial requires the following:
 3. The VCK190 base platform downloaded from the following [link](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-platforms/2022-1.html).
 
 
-## Create and Compile a MaXEVA Configuration
+## Compile & Run a MaXEVA Configuration
 
 1. Create a new application project (e.g., named `<project_name_dir>`) as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US).
 
