@@ -8,7 +8,7 @@ Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
 If you find this repo useful, please consider citing our work:
  ```bash
-@inproceedings{taka2023MAXEVA,
+@inproceedings{Taka2023MAXEVA,
   title={Max{EVA}: {Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine}},
   author={Taka, Endri and Arora, Aman and Wu, Kai Chiang and Marculescu, Diana},
   booktitle={22nd International Conference on Field Programmable Technology (FPT)},
