@@ -44,7 +44,7 @@ energy efficiency.
 MaxEVA constitutes a systematic methodology to maximize the performance and energy
 efficiency of Matrix Multiplication (MatMul) applications on Versal AIEs. 
 
-The main contributions of this work are:
+The main contributions are:
 + An optimization methodology based on analytical modelling
 to maximize the performance of MatMul on Versal
 AIE. Our methodology is generalizable to any Versal AIE
@@ -54,6 +54,7 @@ leading to maximal utilization of the AIE resources.
 leverage the most efficient data movement mechanisms
 of the Versal AIE architecture.
 
+MaxEVA details:
 1. Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels mapping to AIE array), `M`, `K`, and `N` (single AIE kernels). More details on Section IV-A of the paper.
 
 <img src="images/MaxEVA_Fig3.PNG" width=50% height=50%>
