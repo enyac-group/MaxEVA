@@ -62,7 +62,7 @@ of the Versal AIE architecture.
 </p>
 
 2. Fig. 4 presents a high-level mapping diagram of MatMul and Add kernels on AIE. MaxEVA utilizes only the most efficient **circuit-switching** capability of the AIE (Section III-B).
-To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasting** and **output adder-tree reduction** (Section IV-B).
+To overcome the major bottleneck of limited PLIO bandwidth, MaxEVA utilizes **input broadcasting** and **output adder-tree reduction** (Section IV-B).
 
 <p align="center">
 <img src="images/MatMul_mapping_AIE.PNG" width=65% height=65%>
