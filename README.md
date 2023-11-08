@@ -4,6 +4,32 @@ This is the official github repo of the MaxEVA paper published at FPT2023 Confer
 
 Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
+# Abstract
+
+The increasing computational and memory requirements
+of Deep Learning (DL) workloads has led to outstanding
+innovations in hardware architectures. An archetype of such
+architectures is the novel Versal AI Engine (AIE) by AMD/Xilinx.
+The AIE comprises multiple programmable processors optimized
+for vector-based algorithms. An AIE array consisting of 400
+processor cores, operating at 1.25 GHz is able to deliver a peak
+throughput of 8 TFLOPs for 32-bit floating-point (fp32), and
+128 TOPs for 8-bit integer (int8) precision. In this work, we
+propose MaxEVA: a novel framework to efficiently map Matrix
+Multiplication (MatMul) workloads on Versal AIE devices. Our
+framework maximizes the performance and energy efficiency
+of MatMul applications by efficiently exploiting features of the
+AIE architecture and resolving performance bottlenecks from
+multiple angles. When demonstrating on the VC1902 device of the
+VCK190 board, MaxEVA accomplishes up to 5.44 TFLOPs and
+77.01 TOPs throughput for fp32 and int8 precisions, respectively.
+In terms of energy efficiency, MaxEVA attains up to 85.11
+GFLOPs/W for fp32, and 1.73 TOPs/W for int8. Our proposed
+method substantially outperforms the state-of-the-art approach
+by exhibiting up to 2.19× throughput gain and 29.4% higher
+energy efficiency. The MaxEVA framework provides notable
+insights to fill the knowledge gap in effectively designing MatMulbased
+DL workloads on the new Versal AIE devices.
 
 ## Requirements
 
