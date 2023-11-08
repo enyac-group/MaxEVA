@@ -65,7 +65,7 @@ of the Versal AIE architecture.
 To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasting** and **output adder-tree reduction** (Section IV-B).
 
 <p align="center">
-<img src="images/MatMul_mapping_AIE.PNG" width=60% height=60%>
+<img src="images/MatMul_mapping_AIE.PNG" width=65% height=65%>
 </p>
 
 3. Optimization of `M`, `K`, `N` and `X`, `Y`, `Z` shown at Section IV-C.
@@ -73,7 +73,7 @@ To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasti
 4. Fig.7 depicts the two proposed placement patterns to leverage the **most efficient local data sharing** mechanism of the AIE array and **eliminate/minimize DMA** usage (Section IV-D).
 
 <p align="center">
-<img src="images/placement_patterns.PNG" width=55% height=55%>
+<img src="images/placement_patterns.PNG" width=60% height=60%>
 </p>
 
 
