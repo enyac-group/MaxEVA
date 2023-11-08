@@ -4,7 +4,7 @@ This is the official github repo of the MaxEVA paper published at FPT2023 Confer
 
 Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
-# How to cite
+## How to cite
 
 If you find this repo useful, please consider citing our work:
  ```bash
@@ -17,7 +17,7 @@ If you find this repo useful, please consider citing our work:
 }
 ```
 
-# Abstract
+## Abstract
 
 The increasing computational and memory requirements
 of Deep Learning (DL) workloads has led to outstanding
@@ -38,6 +38,8 @@ GFLOPs/W for fp32, and 1.73 TOPs/W for int8. Our proposed
 method substantially outperforms the state-of-the-art approach
 by exhibiting up to **2.19×** throughput gain and **29.4%** higher
 energy efficiency.
+
+
 
 ## Requirements
 
