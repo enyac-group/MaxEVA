@@ -38,4 +38,7 @@ This tutorial requires the following:
    ```bash
    cd <project_name_dir>/data
    g++ -o generate_golden_int8 generate_golden_int8.cpp
+   ./generate_golden_int8
    ```
+
+   Note: This script was tested with g++ 9.4.0 compiler version.
