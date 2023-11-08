@@ -6,6 +6,7 @@ Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
 # How to cite
 
+If you find this repo useful, please consider citing our work:
  ```bash
 @inproceedings{taka2023MAXEVA,
   title={Max{EVA}: {Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine}},
