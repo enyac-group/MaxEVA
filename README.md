@@ -32,4 +32,6 @@ This tutorial requires the following:
    This flag will optimize buffer placement and will prevent buffer conflicts where possible, leading to higher performance. More details can be found at AMD documentation [UG1076](https://docs.xilinx.com/r/2022.1-English/ug1076-ai-engine-environment/Memory-Stalls).
 
 4.  Right click on `<project_name_dir> [ aiengine ]` and select `Build Project`. This step will build the project for HW Emulation. Make sure the Active build Configuration is set to `Emulation-AIE` as shown [here](https://support.xilinx.com/s/article/1199671?language=en_US).
-   
+
+5. Generate input and golden data utilizing the `generate_golden_{int8,fp32}` C++ script:
+6. 
