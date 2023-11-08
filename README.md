@@ -29,6 +29,6 @@ This tutorial requires the following:
 
    <img src="images/compiler_mapper.png" width=50% height=50%>
 
-   This flag will optimize buffer placement and will prevent buffer conflicts where possible. More details can be found at AMD documentation [UG1076](https://docs.xilinx.com/r/2022.1-English/ug1076-ai-engine-environment/Memory-Stalls).
+   This flag will optimize buffer placement and will prevent buffer conflicts where possible, leading to higher performance. More details can be found at AMD documentation [UG1076](https://docs.xilinx.com/r/2022.1-English/ug1076-ai-engine-environment/Memory-Stalls).
 
    
