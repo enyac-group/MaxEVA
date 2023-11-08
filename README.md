@@ -54,6 +54,7 @@ leading to maximal utilization of the AIE resources.
 leverage the most efficient data movement mechanisms
 of the Versal AIE architecture.
 
+<img src="images/MaxEVA_Fig3.PNG" width=35% height=35%>
 
 ## Requirements
 
