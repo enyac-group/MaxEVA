@@ -56,7 +56,7 @@ of the Versal AIE architecture.
 
 Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels mapping to AIE array), `M`, `K`, and `N` (single AIE kernels). 
 
-<img src="images/MaxEVA_Fig3.PNG" width=50% height=50%>
+           <img src="images/MaxEVA_Fig3.PNG" width=50% height=50%>
 
 ## Requirements
 
