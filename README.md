@@ -4,6 +4,19 @@ This is the official github repo of the MaxEVA paper published at FPT2023 Confer
 
 Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
+# How to cite
+
+ ```bash
+@inproceedings{taka2023AIE,
+  title={Max{EVA}: {Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine}},
+  author={\textbf{E. Taka} and Arora, Aman and Wu, Kai Chiang and Marculescu, Diana},
+  booktitle={22nd International Conference on Field Programmable Technology (FPT)},
+  year={2023},
+  organization={IEEE},
+  note={\emph{To appear}}
+}
+```
+
 # Abstract
 
 The increasing computational and memory requirements
