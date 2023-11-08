@@ -51,7 +51,7 @@ This tutorial requires the following:
    python3 performance_calc.py --project_dir=<absolute_path_to_project_name_dir> --single_M=32 --single_K=128 --single_N=32 --mult_X=13 --mult_Y=4 --mult_Z=6 --precision=int8
    ```
 
-   In this example the `int8` **X**x**Y**x**Z** = **13**x**4**x**6** MaxEVA configuration has been compiled (Table II on manuscript), with single AIE kernel size **M**x**K**x**N** = **32**x**128**x**32** (Table I on manuscript).
+   In this example the `int8` **X** x **Y** x **Z** = **13** x **4** x **6** MaxEVA configuration has been compiled (Table II on manuscript), with single AIE kernel size **M**x**K**x**N** = **32**x**128**x**32** (Table I on manuscript).
 
-   Note: To compile and run a new MaxEVA configuration of the same pattern, e.g., **11**x**4**x**7**, modify the parameters `mult_{X, Y, Z}` at [`Pattern1_int8/src/kernels/include.h`](Pattern1_int8/src/kernels/include.h) accordingly (see Table II on manuscript for more details), and repeat steps **4-7**.
+   Note: To compile and run a new MaxEVA configuration of the same pattern, e.g., **11** x **4** x **7**, modify the parameters `mult_{X, Y, Z}` at [`Pattern1_int8/src/kernels/include.h`](Pattern1_int8/src/kernels/include.h) accordingly (see Table II on manuscript for more details), and repeat steps **4-7**.
    
