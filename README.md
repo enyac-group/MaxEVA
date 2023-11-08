@@ -17,6 +17,8 @@ This tutorial requires the following:
 
 ## Create and Compile a MaXEVA Configuration
 
+Steps:
+
 1. Create a new application project (e.g., named `<project_name_dir>`) as shown [here](https://support.xilinx.com/s/article/1184031?language=en_US).
 
 2. Replace the contents of `<project_name_dir>/data` and `<project_name_dir>/src` directories with a MaxEVA configuration, e.g., [`Pattern1_int8/data`](Pattern1_int8/data) and [`Pattern1_int8/src`](Pattern1_int8/src), respectively for pattern `P1`, `int8` MaxEVA configuration.
@@ -31,4 +33,5 @@ This tutorial requires the following:
 
    This flag will optimize buffer placement and will prevent buffer conflicts where possible, leading to higher performance. More details can be found at AMD documentation [UG1076](https://docs.xilinx.com/r/2022.1-English/ug1076-ai-engine-environment/Memory-Stalls).
 
+4.  Right click on `<project_name_dir> [ aiengine ]` and select `Build Project`. This step 
    
