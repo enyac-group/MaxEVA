@@ -1,4 +1,4 @@
-# MaxEVA: Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine
+# MaxEVA: Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine (FPT'23)
 
 This is the official github repo of the MaxEVA paper published at FPT2023 Conference.
 
