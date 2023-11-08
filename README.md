@@ -7,13 +7,12 @@ Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 # How to cite
 
  ```bash
-@inproceedings{taka2023AIE,
+@inproceedings{taka2023MAXEVA,
   title={Max{EVA}: {Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine}},
-  author={\textbf{E. Taka} and Arora, Aman and Wu, Kai Chiang and Marculescu, Diana},
+  author={Taka, Endri and Arora, Aman and Wu, Kai Chiang and Marculescu, Diana},
   booktitle={22nd International Conference on Field Programmable Technology (FPT)},
   year={2023},
-  organization={IEEE},
-  note={\emph{To appear}}
+  organization={IEEE}
 }
 ```
 
