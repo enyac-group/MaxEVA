@@ -57,6 +57,9 @@ of the Versal AIE architecture.
 device and MatMul-based DL workloads.
 
 ## MaxEVA Design Details
+
+Briefly, the novel design characteristics of MaxEVA are the following:
+
 1. Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels' mapping to AIE array), and `M`, `K`, `N` (single AIE kernels). More details on Section IV-A of the paper.
 
 <p align="center">
