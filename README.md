@@ -23,10 +23,10 @@ This tutorial requires the following:
 
 3. Right click on `<project_name_dir> [ aiengine ]` and select `C/C++ Build Settings` as shown in the figure below:
    
-   <img src="images/prj_build_settings.png" width=30% height=30%>
+   <img src="images/prj_build_settings.png" width=20% height=20%>
 
    At `Compiler` Settings > `Mapper Options` invoke buffer optimizations level 8: `BufferOptLevel8`:
 
-   <img src="images/compiler_mapper.png" width=30% height=30%>
+   <img src="images/compiler_mapper.png" width=50% height=50%>
 
    
