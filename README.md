@@ -51,5 +51,5 @@ This tutorial requires the following:
    python3 performance_calc.py --project_dir=<absolute_path_to_project_name_dir> --single_M=32 --single_K=128 --single_N=32 --mult_X=13 --mult_Y=4 --mult_Z=6 --precision=int8
    ```
 
-   In this example the **X**x**Y**x**Z** 
+   In this example the `**X**x**Y**x**Z** = **13**x**4**x**6**`
    
