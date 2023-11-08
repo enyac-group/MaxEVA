@@ -45,7 +45,7 @@ It is recommended to review the [AMD/Xilinx AI Engine blog series](https://suppo
 
 6. When build is finished, right click on `<project_name_dir> [ aiengine ]` > `Run As` > `Launch AIE Simulator`, to simulate the project.
 
-7. When simulation is finished, run the [`performance_calc.py`](performance_calc.py) Python script to calculate the MaxEVA throughput. Below is an example of `P1`, `int8`:
+7. When emulation is finished, run the [`performance_calc.py`](performance_calc.py) Python script to calculate the MaxEVA throughput. Below is an example of `P1`, `int8`:
 
    ```bash
    python3 performance_calc.py --project_dir=<absolute_path_to_project_name_dir> --single_M=32 --single_K=128 --single_N=32 --mult_X=13 --mult_Y=4 --mult_Z=6 --precision=int8
