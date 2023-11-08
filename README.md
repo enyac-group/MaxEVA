@@ -25,7 +25,7 @@ This tutorial requires the following:
    
    <img src="images/prj_build_settings.png" width=20% height=20%>
 
-   At `Compiler` Settings > `Mapper Options` invoke buffer optimizations level 8: `BufferOptLevel8`:
+   At `Compiler` Settings > `Mapper Options` invoke buffer optimizations level 8, i.e., `BufferOptLevel8`:
 
    <img src="images/compiler_mapper.png" width=50% height=50%>
 
