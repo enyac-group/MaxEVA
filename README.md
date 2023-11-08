@@ -54,14 +54,18 @@ leading to maximal utilization of the AIE resources.
 leverage the most efficient data movement mechanisms
 of the Versal AIE architecture.
 
-Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels mapping to AIE array), `M`, `K`, and `N` (single AIE kernels). More details on Section IV-A of the paper.
++ Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels mapping to AIE array), `M`, `K`, and `N` (single AIE kernels). More details on Section IV-A of the paper.
 
-<img src="images/MaxEVA_Fig3.PNG" width=50% height=50%>
+<img src="images/MaxEVA_Fig3.PNG" width=60% height=60%>
 
-Fig. 4 presents a high-level mapping diagram of MatMul and Add kernels on AIE. MaxEVA utilizes only the most efficient **circuit-switching** capability of the AIE (Section III-B).
++ Fig. 4 presents a high-level mapping diagram of MatMul and Add kernels on AIE. MaxEVA utilizes only the most efficient **circuit-switching** capability of the AIE (Section III-B).
 To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasting** and **output adder-tree reduction** (Section IV-B).
 
 <img src="images/MatMul_mapping_AIE.PNG" width=60% height=60%>
+
++ Optimization of `M`, `K`, `N` and `X`, `Y`, `Z` shown on Section IV-C.
+
++ Fig.7 depicts the two proposed placement patterns to leverage the **most efficient local data sharing** mechanism of the AIE array (Section IV-D).
 
 
 ## Requirements
