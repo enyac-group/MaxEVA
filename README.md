@@ -23,11 +23,11 @@ It is recommended to review the [AMD/Xilinx AI Engine blog series](https://suppo
 
 3. Right click on `<project_name_dir> [ aiengine ]` and select `C/C++ Build Settings` as shown in the figure below:
    
-   <img src="images/prj_build_settings.png" width=30% height=30%>
+   <img src="images/prj_build_settings.png" width=35% height=35%>
 
    At `Compiler` Settings > `Mapper Options` invoke buffer optimizations level 8, i.e., `BufferOptLevel8`:
 
-   <img src="images/compiler_mapper.png" width=60% height=60%>
+   <img src="images/compiler_mapper.png" width=65% height=65%>
 
    This flag will optimize buffer placement and will prevent buffer conflicts where possible, leading to higher performance. More details can be found at AMD documentation [UG1076](https://docs.xilinx.com/r/2022.1-English/ug1076-ai-engine-environment/Memory-Stalls).
 
