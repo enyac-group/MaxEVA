@@ -42,3 +42,5 @@ This tutorial requires the following:
    ```
 
    Note: This script was tested with g++ 9.4.0 compiler version.
+
+6. When build is finished, Right click on `<project_name_dir> [ aiengine ]` > `Run As` > `Launch AIE Simulator`, to simulate the project.
