@@ -36,8 +36,8 @@ VCK190 board, MaxEVA accomplishes up to **5.44 TFLOPs** and
 In terms of energy efficiency, MaxEVA attains up to 85.11
 GFLOPs/W for fp32, and 1.73 TOPs/W for int8. Our proposed
 method substantially outperforms the state-of-the-art approach
-by exhibiting up to **2.19×** **throughput** gain and **29.4%** higher
-**energy efficiency**.
+by exhibiting up to **2.19×** **throughput gain** and **29.4%** **higher
+energy efficiency**.
 
 
 ## Overview
