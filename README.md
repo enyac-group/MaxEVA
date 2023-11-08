@@ -31,13 +31,13 @@ framework maximizes the performance and energy efficiency
 of MatMul applications by efficiently exploiting features of the
 AIE architecture and resolving performance bottlenecks from
 multiple angles. When demonstrating on the VC1902 device of the
-VCK190 board, MaxEVA accomplishes up to 5.44 TFLOPs and
-77.01 TOPs throughput for fp32 and int8 precisions, respectively.
+VCK190 board, MaxEVA accomplishes up to **5.44 TFLOPs** and
+**77.01 TOPs** throughput for fp32 and int8 precisions, respectively.
 In terms of energy efficiency, MaxEVA attains up to 85.11
 GFLOPs/W for fp32, and 1.73 TOPs/W for int8. Our proposed
 method substantially outperforms the state-of-the-art approach
-by exhibiting up to **2.19×** throughput gain and **29.4%** higher
-energy efficiency.
+by exhibiting up to **2.19×** **throughput** gain and **29.4%** higher
+**energy efficiency**.
 
 
 ## Overview
