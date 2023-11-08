@@ -47,14 +47,14 @@ efficiency of Matrix Multiplication (MatMul) on Versal AI Engines (AIEs). The ma
 + An optimization methodology based on analytical modelling
 to maximize the performance of MatMul on Versal
 AIE.
-+ Generalizability of MaxEVA to any Versal AIE
-device and MatMul-based DL workloads.
 + MaxEVA  efficiently exploits features of the
 AIE architecture and addresses various performance bottlenecks,
 leading to maximal utilization of the AIE resources (up to **100%** AIE cores, **99.8%** AIE memory and **82.1%** PLIOs).
 + A sophisticated AIE kernel placement strategy to effectively
 leverage the most efficient data movement mechanisms
 of the Versal AIE architecture.
++ Generalizability of MaxEVA to any Versal AIE
+device and MatMul-based DL workloads.
 
 ## MaxEVA Framework
 1. Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels' mapping to AIE array), and `M`, `K`, `N` (single AIE kernels). More details on Section IV-A of the paper.
