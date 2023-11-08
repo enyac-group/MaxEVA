@@ -21,4 +21,5 @@ This tutorial requires the following:
 
 2. Replace the contents of `<project_name_dir>/data` and `<project_name_dir>/src` directories with a MaxEVA configuration, e.g., [`Pattern1_int8/data`](Pattern1_int8/data) and [`Pattern1_int8/src`](Pattern1_int8/src), respectively for pattern `P1`, `int8` MaxEVA configuration.
 
-3. <img src="images/prj_build_settings.png" width=30% height=30%>
+3. Right click on `<project_name_dir> [ aiengine ]` > `C/C++ Build Settings` as shown in the figure below:
+   <img src="images/prj_build_settings.png" width=30% height=30%>
