@@ -57,7 +57,9 @@ of the Versal AIE architecture.
 ### MaxEVA details
 1. Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable integer parameters which MaxEVA optimizes are: `X`, `Y`, `Z` (multiple kernels mapping to AIE array), and `M`, `K`, `N` (single AIE kernels). More details on Section IV-A of the paper.
 
+<p align="center">
 <img src="images/MaxEVA_Fig3.PNG" width=50% height=50%>
+</p>
 
 2. Fig. 4 presents a high-level mapping diagram of MatMul and Add kernels on AIE. MaxEVA utilizes only the most efficient **circuit-switching** capability of the AIE (Section III-B).
 To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasting** and **output adder-tree reduction** (Section IV-B).
