@@ -53,6 +53,6 @@ This tutorial requires the following:
 
    In this example the `int8` **X**x**Y**x**Z** = **13**x**4**x**6** MaxEVA configuration has been compiled (Table II on manuscript), with single AIE kernel size **M**x**K**x**N** = **32**x**128**x**32** (Table I on manuscript).
 
-   Note: To compile and run a new MaxEVA configuration of the same pattern, e.g., **11**x**4**x**7**, [`Pattern1_int8/src/kernels
-/include.h`](Pattern1_int8/src/kernels/include.h)
+   Note: To compile and run a new MaxEVA configuration of the same pattern, e.g., **11**x**4**x**7**, modify the parameters `mult_{X, Y, Z}` at [`Pattern1_int8/src/kernels
+/include.h`](Pattern1_int8/src/kernels/include.h) accordingly (see Table II on manuscript for more details).
    
