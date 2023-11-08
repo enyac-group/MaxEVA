@@ -61,7 +61,7 @@ Fig. 3 on manuscript shows the MaxEVA MatMul tiling scheme. The configurable int
 Fig. 4 presents a high-level mapping diagram of MatMul and Add kernels on AIE. MaxEVA utilizes only the most efficient **circuit-switching** capability of the AIE (Section III-B).
 To overcome the major limited PLIO bandwidth, MaxEVA utilizes **input broadcasting** and **output adder-tree reduction** (Section IV-B).
 
-<img src="images/MatMul_mapping_AIE.PNG" width=50% height=50%>
+<img src="images/MatMul_mapping_AIE.PNG" width=70% height=70%>
 
 
 ## Requirements
