@@ -49,7 +49,7 @@ to maximize the performance of MatMul on Versal
 AIE.
 + Generalizability of MaxEVA to any Versal AIE
 device and MatMul-based DL workloads.
-+ MaxEVA  efficiently exploiting features of the
++ MaxEVA  efficiently exploits features of the
 AIE architecture and addresses various performance bottlenecks,
 leading to maximal utilization of the AIE resources (up to **100%** AIE cores, **99.8%** AIE memory and **82.1%** PLIOs).
 + A sophisticated AIE kernel placement strategy to effectively
