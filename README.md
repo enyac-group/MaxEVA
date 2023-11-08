@@ -2,7 +2,7 @@
 
 This is the official github repo of MaxEVA paper published at FPT2023 Conference.
 
-Available preprint: **XXXXXXXXXXXXXXXXXXXXXX**
+Available preprint on arxiv: **XXXXXXXXXXXXXXXXXXXXXX**
 
 
 ## Requirements
@@ -23,11 +23,11 @@ This tutorial requires the following:
 
 3. Right click on `<project_name_dir> [ aiengine ]` and select `C/C++ Build Settings` as shown in the figure below:
    
-   <img src="images/prj_build_settings.png" width=20% height=20%>
+   <img src="images/prj_build_settings.png" width=30% height=30%>
 
    At `Compiler` Settings > `Mapper Options` invoke buffer optimizations level 8, i.e., `BufferOptLevel8`:
 
-   <img src="images/compiler_mapper.png" width=50% height=50%>
+   <img src="images/compiler_mapper.png" width=60% height=60%>
 
    This flag will optimize buffer placement and will prevent buffer conflicts where possible, leading to higher performance. More details can be found at AMD documentation [UG1076](https://docs.xilinx.com/r/2022.1-English/ug1076-ai-engine-environment/Memory-Stalls).
 
