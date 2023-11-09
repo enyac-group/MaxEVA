@@ -77,7 +77,7 @@ To overcome the major bottleneck of limited PLIO bandwidth, MaxEVA utilizes **in
 
 3. Optimization of `M`, `K`, `N` and `X`, `Y`, `Z` parameters through analytical modelling as shown at Section IV-C.
 
-4. Fig. 7 depicts the two proposed placement patterns to leverage the **most efficient local data sharing** mechanism of the AIE array and **eliminate/minimize DMA** usage (Section IV-D).
+4. Fig. 7 depicts the two proposed placement patterns to leverage the **most efficient local data sharing** mechanism of the AIE array, and thus **eliminate/minimize DMA** usage (Section IV-D).
 
 <p align="center">
 <img src="images/placement_patterns.PNG" width=65% height=65%>
