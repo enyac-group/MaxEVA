@@ -60,7 +60,7 @@ device and MatMul-based DL workloads.
 
 Briefly, the novel design characteristics of MaxEVA are the following:
 
-1. The proposed tiling scheme comprises the integer parameters `X`, `Y`, `Z`, and `M`, `K`, `N` (Fig. 3 on manuscript). The tiling size `M` x `K` x `N` is determined by the single MatMul kernel mapped to one AIE core, while the parameters  `X`, `Y`, `Z` denote the multiple mapping of kernles to the AIE array.
+1. The proposed tiling scheme comprises the integer parameters `X`, `Y`, `Z`, and `M`, `K`, `N` (Fig. 3 on manuscript). The tiling size `M` x `K` x `N` is determined by the single MatMul kernel mapped to one AIE core, while the parameters  `X`, `Y`, `Z` denote the multiple mapping of kernels to the AIE array.
 
    Matrix size running on AIE array: `X*M` x `Y*K` x `Z*N`
 
