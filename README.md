@@ -2,7 +2,7 @@
 
 This is the official github repo of the MaxEVA paper published at FPT 2023 Conference.
 
-Available preprint on arxiv: [https://arxiv.org/abs/2311.04980](https://arxiv.org/abs/2311.04980)
+Preprint available on arxiv: [https://arxiv.org/abs/2311.04980](https://arxiv.org/abs/2311.04980)
 
 ## How to cite
 
