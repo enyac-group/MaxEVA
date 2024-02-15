@@ -14,7 +14,8 @@ If you find this repo useful, please consider citing our work:
   booktitle={2023 International Conference on Field Programmable Technology (ICFPT)},
   year={2023},
   pages={96-105},
-  organization={IEEE}
+  organization={IEEE},
+  doi={10.1109/ICFPT59805.2023.00016}
 }
 ```
 
