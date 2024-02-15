@@ -11,8 +11,9 @@ If you find this repo useful, please consider citing our work:
 @inproceedings{Taka2023MaxEVA,
   title={Max{EVA}: {Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine}},
   author={Taka, Endri and Arora, Aman and Wu, Kai Chiang and Marculescu, Diana},
-  booktitle={22nd International Conference on Field Programmable Technology (FPT)},
+  booktitle={2023 International Conference on Field Programmable Technology (ICFPT)},
   year={2023},
+  pages={96-105},
   organization={IEEE}
 }
 ```
